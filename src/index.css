@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* ------------------------------------------
+   GOOGLE FONT IMPORTS
+------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+/* ------------------------------------------
+   ROOT THEME VARIABLES
+------------------------------------------- */
+:root {
+    /* FONT FAMILY */
+    --font-sans: "Poppins", sans-serif;
+    --font-serif: "Roboto", serif;
+
+    /* BASE COLORS */
+    --color-bg: #fcfcfd;
+    --color-text: #190d26;
+
+    /* PRIMARY */
+    --color-primary: #7c3bed;
+    --color-primary-text: #ffffff;
+
+    /* SECONDARY */
+    --color-secondary: #f2f0f5;
+    --color-secondary-text: #261339;
+
+    /* ACCENT */
+    --color-accent: #f0e9fb;
+    --color-accent-text: #5914d2;
+
+    /* BORDER & INPUT */
+    --color-border: #e6e0eb;
+    --color-input: #e6e0eb;
+    --color-focus-ring: #7c3bed;
+
+    /* CARD */
+    --color-card: #faf9fb;
+    --color-card-text: #190d26;
+
+    /* POPOVER */
+    --color-popover: #faf9fb;
+    --color-popover-text: #190d26;
+
+    /* EXTRA PALETTE (from top purple palette images) */
+    --purple-1: #6c1fb5;
+    --purple-2: #5a189a;
+    --purple-3: #9d4bff;
+    --purple-4: #7a3ecc;
+}
+
+/* ------------------------------------------
+   GLOBAL RESET + BASE
+------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+}
+
+/* Optional utility classes */
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-primary {
+    background: var(--color-primary);
+    color: var(--color-primary-text);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-primary-text);
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    border: 1px solid var(--color-border);
+    background: var(--color-input);
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: var(--font-sans);
+}
+
+.input:focus {
+    outline: 2px solid var(--color-focus-ring);
+}
