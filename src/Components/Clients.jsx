@@ -1,4 +1,7 @@
+import siteData from "../Constants/siteData";
+
 // Clients Section - Tailwind v4.1 Ready
+
 const Clients = () => {
   return (
     <section className="py-20 md:py-28 bg-olive-50">

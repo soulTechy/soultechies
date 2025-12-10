@@ -52,17 +52,7 @@
 /* ------------------------------------------
    GLOBAL RESET + BASE
 ------------------------------------------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background: var(--color-bg);
-    color: var(--color-text);
-    font-family: var(--font-sans);
-}
 
 /* Optional utility classes */
 .text-primary {
@@ -83,15 +73,3 @@ body {
     cursor: pointer;
 }
 
-.input {
-    border: 1px solid var(--color-border);
-    background: var(--color-input);
-    padding: 10px 12px;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-family: var(--font-sans);
-}
-
-.input:focus {
-    outline: 2px solid var(--color-focus-ring);
-}

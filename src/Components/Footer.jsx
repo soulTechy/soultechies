@@ -1,3 +1,5 @@
+import siteData from "../Constants/siteData";
+
 // Footer — Tailwind v4.1 Ready
 const Footer = () => {
   return (

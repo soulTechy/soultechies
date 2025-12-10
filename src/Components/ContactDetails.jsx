@@ -1,4 +1,11 @@
 // Contact Details Section — Tailwind v4.1 Ready
+import { CiMail } from "react-icons/ci";
+import { FaPhone } from "react-icons/fa";
+import { FaMapPin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import siteData from "../Constants/siteData";
 const ContactDetails = () => {
   return (
     <section className="py-20 md:py-28 bg-olive-50">
@@ -23,7 +30,7 @@ const ContactDetails = () => {
           "
           >
             <div className="h-16 w-16 rounded-full bg-olive-600 flex items-center justify-center mx-auto mb-6">
-              <Mail size={24} className="text-white" />
+              <CiMail size={24} className="text-white" />
             </div>
 
             <h3 className="text-xl font-bold text-olive-800 mb-2">Email</h3>
@@ -44,7 +51,7 @@ const ContactDetails = () => {
           "
           >
             <div className="h-16 w-16 rounded-full bg-olive-600 flex items-center justify-center mx-auto mb-6">
-              <Phone size={24} className="text-white" />
+              <FaPhone size={24} className="text-white" />
             </div>
 
             <h3 className="text-xl font-bold text-olive-800 mb-2">Phone</h3>
@@ -65,7 +72,7 @@ const ContactDetails = () => {
           "
           >
             <div className="h-16 w-16 rounded-full bg-olive-600 flex items-center justify-center mx-auto mb-6">
-              <MapPin size={24} className="text-white" />
+              <FaMapPin size={24} className="text-white" />
             </div>
 
             <h3 className="text-xl font-bold text-olive-800 mb-2">Address</h3>
@@ -85,7 +92,7 @@ const ContactDetails = () => {
               transition-all duration-300 hover:bg-olive-700 hover:scale-110
             "
           >
-            <Github className="text-white" size={24} />
+            <FaGithub className="text-white" size={24} />
           </a>
 
           <a
@@ -97,7 +104,7 @@ const ContactDetails = () => {
               transition-all duration-300 hover:bg-olive-700 hover:scale-110
             "
           >
-            <Linkedin className="text-white" size={24} />
+            <FaLinkedin className="text-white" size={24} />
           </a>
 
           <a
@@ -109,7 +116,7 @@ const ContactDetails = () => {
               transition-all duration-300 hover:bg-olive-700 hover:scale-110
             "
           >
-            <Twitter className="text-white" size={24} />
+            <FaXTwitter className="text-white" size={24} />
           </a>
         </div>
       </div>

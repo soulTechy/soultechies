@@ -1,4 +1,8 @@
+import siteData from "../Constants/siteData";
+import Star from "./Common/Star";
+
 // Reviews Section - Tailwind v4.1 Ready
+
 const Reviews = () => {
   return (
     <section className="py-20 md:py-28 bg-white">
