@@ -5,7 +5,7 @@ import Reviews from "./Components/Reviews";
 import Services from "./Components/Services";
 import Footer from "./Components/Footer";
 import ContactDetails from "./Components/ContactDetails";
-import ContactFormModal from "./Components/ContactFormModal";
+
 import Clients from "./Components/Clients";
 
 const HomePage = () => {
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Clients />
       <Reviews />
       <Services />
-      <ContactFormModal />
+
       <ContactDetails />
       <Footer />
     </div>
