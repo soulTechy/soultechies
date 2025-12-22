@@ -102,7 +102,7 @@ const Footer = () => {
               >
                 <Phone size={16} style={{ color: PRIMARY }} />
               </div>
-              <span className="text-sm">+91 7076 853 097 / +91 6289 549 477</span>
+              <span className="text-sm">+91 6289 549 477</span>
             </motion.a>
 
             <motion.div

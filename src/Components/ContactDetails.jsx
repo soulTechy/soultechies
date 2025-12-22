@@ -180,7 +180,7 @@ const handleSubmit = async () => {
           >
             {[
               { icon: Mail, title: 'Email', value: 'soulte3h@gmail.com', href: 'mailto:soulte3h@gmail.com' },
-              { icon: Phone, title: 'Phone', value: '+91 7076 853 097 / +91 6289 549 477', href: 'tel:+15551234567' },
+              { icon: Phone, title: 'Phone', value: '+91 6289 549 477', href: 'tel:+15551234567' },
               { icon: MapPin, title: 'Location', value: 'Kolkata, West Bengal', href: null }
             ].map((item, idx) => (
               <motion.div

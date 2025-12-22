@@ -98,7 +98,7 @@
 
 //   contact: {
 //     email: "hello@soultech.agency",
-//     phone: "+91 7076 853 097/ +91 6289 549 477",
+//     phone: "+91 6289 549 477",
 //     address: "123 Tech Street, Innovation City, CA 94000",
 //     social: {
 //       github: "https://github.com/soultech",
@@ -233,7 +233,7 @@ const siteData = {
 
   contact: {
     email: "hello@soultech.agency",
-    phone: "+91 7076 853 097 / +91 6289 549 477",
+    phone: "+91 6289 549 477",
     address: "123 Tech Street, Innovation City, CA 94000",
     social: {
       github: "https://github.com/soultech",
